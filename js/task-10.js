@@ -20,8 +20,8 @@ const createBoxes = (amount) => {
   for (let i = 0; i < amount; i += 1) {
     const widthHeightSize = 30 + i * 10 + "px";
     const divNew = document.createElement("div");
-    divNew.style.width = widthHeightSize; // ширина
-    divNew.style.height = widthHeightSize; // высота
+    divNew.style.width = widthHeightSize; 
+    divNew.style.height = widthHeightSize; 
     divNew.style.backgroundColor = getRandomHexColor();
     divNew.style.marginTop = 5 + "px";
     arrayDiv.append(divNew);
